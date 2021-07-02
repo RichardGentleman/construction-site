@@ -3,6 +3,11 @@
     text-decoration: none;
     color: #000;
 
+    &--white {
+        color: #FFF;
+        text-align: right;
+    }
+
     &__main-page {
         position: absolute;
         width: 100%;
@@ -21,7 +26,7 @@
     a {
         text-decoration: none;
         color: $mainGreen;
-        transition: color 0.5s;
+        transition: color 1s;
     }
 
     a:hover,

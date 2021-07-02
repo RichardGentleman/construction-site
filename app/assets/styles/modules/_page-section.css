@@ -6,7 +6,7 @@
     }
 
     &--green {
-        background-color: $mainGreen;
+        background-color: $lighterGreen;
         color: #FFF;
     }
 }
