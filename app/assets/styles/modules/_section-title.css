@@ -10,4 +10,8 @@
     strong {
         font-weight: 500;
     }
+
+    &--white {
+        color: #FFF;
+    }
 }

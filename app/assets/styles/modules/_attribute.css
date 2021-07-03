@@ -3,9 +3,21 @@
     text-decoration: none;
     color: #000;
 
+    &-testimonials-small {        
+        font-size: .8rem;       
+    }
+
+    &-testimonials-padding-b {
+        padding-bottom: 15px;
+    }
+
+    &-testimonials-padding {
+        padding: 20px 20px 20px 0;
+        
+    }
+
     &--white {
         color: #FFF;
-        text-align: right;
     }
 
     &__main-page {
@@ -45,5 +57,7 @@
     &--text-position-center {
         text-align: center;
     }
+
+    
 }
 
