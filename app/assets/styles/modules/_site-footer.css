@@ -1,0 +1,28 @@
+.site-footer {
+    background-color: $mainGreen;
+    color: #FFF;
+    padding: .5rem;
+    text-align: center;
+
+    a {
+        color: #FFF;
+        transition: color 1s;
+    }
+
+    a:hover,
+    a:active {
+        color: $mainYellow;
+    }
+
+    &__text {
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: 200;
+        font-size: .8rem;
+
+        @mixin atMedium {
+            display: inline;
+            margin-bottom: 0;
+        }
+    }
+}

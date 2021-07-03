@@ -34,6 +34,10 @@
         margin-bottom: 1rem;
     }
 
+    &__center {
+        text-align: center;
+    }
+
     @mixin atMedium {
 
         &__b-margin-until-medium {
