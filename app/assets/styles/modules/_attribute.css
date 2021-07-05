@@ -58,6 +58,14 @@
         text-align: center;
     }
 
+    &-testimonials-display-none {
+        display: none;
+
+        @mixin atMedium {
+            display: block;
+        }
+    }
+
     
 }
 
